@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.List;
 import java.util.Scanner;
 
-@SpringBootApplication
+//@SpringBootApplication se desactiva la ejecución
 public class ZonaFitApplication implements CommandLineRunner {
 	@Autowired
 	private IClienteServicio clienteServicio;
